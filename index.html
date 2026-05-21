@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BREWED AWAKENINGS| Artisan Coffee & Café</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">BREWED AWAKENINGS</span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tagline">Handcrafted with love since 2018</p>
+      <h1 class="hero-title">
+        Where Every Sip<br/><em>Tells a Story</em>
+      </h1>
+      <p class="hero-desc">Artisan coffee, warm ambience, and flavors that linger long after the last drop.</p>
+      <div class="hero-btns">
+        <a href="#menu" class="btn btn-primary">Explore Our Menu</a>
+        <a href="#contact" class="btn btn-outline">Find Us</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num" data-target="1200">0</span><span>+</span><p>Happy Customers</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="35">0</span><span>+</span><p>Unique Blends</p></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num" data-target="7">0</span><span></span><p>Years of Craft</p></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down bounce"></i>
+    </div>
+  </section>
+
+  <!-- ======= ABOUT ======= -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-img-card img1">
+            <img src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=500&q=80" alt="Coffee brewing" />
+          </div>
+          <div class="about-img-card img2">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&q=80" alt="Café interior" />
+          </div>
+          <div class="about-badge">
+            <span>★</span> Est. 2018
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p class="section-label">Our Story</p>
+          <h2 class="section-title">More Than Just Coffee —<br/><em>It's a Feeling</em></h2>
+          <p>Brewed Awakenings was born from a simple belief: that a great cup of coffee has the power to transform your morning, spark a conversation, or comfort a tired soul.</p>
+          <p>We source single-origin beans from small farms across Ethiopia, Colombia, and Vietnam — then roast every batch in-house for peak freshness and flavor.</p>
+          <div class="about-features">
+            <div class="feature-item">
+              <i class="fas fa-seedling"></i>
+              <div>
+                <strong>Ethically Sourced</strong>
+                <span>Direct trade with 8 partner farms</span>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-fire"></i>
+              <div>
+                <strong>In-House Roasting</strong>
+                <span>Fresh roasted every 48 hours</span>
+              </div>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-leaf"></i>
+              <div>
+                <strong>Eco-Friendly</strong>
+                <span>100% compostable packaging</span>
+              </div>
+            </div>
+          </div>
+          <a href="#menu" class="btn btn-primary">See Our Menu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= MENU ======= -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What We Serve</p>
+        <h2 class="section-title">Our Menu</h2>
+        <p class="section-sub">Every item is crafted fresh — no shortcuts, no compromises.</p>
+      </div>
+      <div class="menu-tabs reveal">
+        <button class="tab-btn active" data-tab="coffee">☕ Coffee</button>
+        <button class="tab-btn" data-tab="food">🥐 Food</button>
+        <button class="tab-btn" data-tab="specials">✨ Specials</button>
+      </div>
+
+      <!-- Coffee Tab -->
+      <div class="tab-content active" id="coffee">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&q=80" alt="Espresso"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Classic Espresso</h3><span class="price">$3.50</span></div>
+              <p>Bold, rich & intense — a double shot of our signature house blend.</p>
+              <span class="tag">Bestseller</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80" alt="Latte"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Silky Latte</h3><span class="price">$5.00</span></div>
+              <p>Smooth espresso with velvety steamed milk and delicate latte art.</p>
+              <span class="tag">Popular</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=400&q=80" alt="Cold Brew"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Cold Brew</h3><span class="price">$5.50</span></div>
+              <p>Slow-steeped 18 hours for a naturally sweet, low-acid cold coffee.</p>
+              <span class="tag">New</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1534778101976-62847782c213?w=400&q=80" alt="Cappuccino"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Cappuccino</h3><span class="price">$4.50</span></div>
+              <p>Equal parts espresso, steamed milk, and rich microfoam perfection.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food Tab -->
+      <div class="tab-content" id="food">
+        <div class="menu-grid">
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=400&q=80" alt="Croissant"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Butter Croissant</h3><span class="price">$4.00</span></div>
+              <p>Flaky, golden, and freshly baked every morning at 6 AM.</p>
+              <span class="tag">Morning Pick</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&q=80" alt="Sandwich"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Avocado Toast</h3><span class="price">$8.50</span></div>
+              <p>Sourdough toast, smashed avocado, cherry tomatoes & chili flakes.</p>
+              <span class="tag">Healthy</span>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80" alt="Cake"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Chocolate Cake</h3><span class="price">$6.50</span></div>
+              <p>House-made rich chocolate cake served with a dollop of cream.</p>
+            </div>
+          </div>
+          <div class="menu-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1484723091739-30990ba72758?w=400&q=80" alt="Pancakes"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Stack Pancakes</h3><span class="price">$9.00</span></div>
+              <p>Fluffy buttermilk pancakes with maple syrup and seasonal berries.</p>
+              <span class="tag">Weekend Special</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Specials Tab -->
+      <div class="tab-content" id="specials">
+        <div class="menu-grid">
+          <div class="menu-card special-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1553361371-9b22f78e8b1d?w=400&q=80" alt="Special Blend"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Golden Turmeric Latte</h3><span class="price">$6.00</span></div>
+              <p>A warming blend of turmeric, oat milk, cinnamon & honey. Caffeine-free.</p>
+              <span class="tag">Chef's Pick</span>
+            </div>
+          </div>
+          <div class="menu-card special-card reveal">
+            <div class="menu-img"><img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=400&q=80" alt="Matcha"/></div>
+            <div class="menu-info">
+              <div class="menu-top"><h3>Matcha Ceremony</h3><span class="price">$6.50</span></div>
+              <p>Ceremonial grade matcha whisked with steamed almond milk & agave.</p>
+              <span class="tag">Trending</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= GALLERY ======= -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Inside Our World</p>
+        <h2 class="section-title">The Café Experience</h2>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="g-item g-tall"><img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&q=80" alt="Café" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400&q=80" alt="Coffee" /></div>
+        <div class="g-item"><img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?w=400&q=80" alt="Barista" /></div>
+        <div class="g-item g-wide"><img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=700&q=80" alt="Interior" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= TESTIMONIALS ======= -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">What People Say</p>
+        <h2 class="section-title">Loved by Our Community</h2>
+      </div>
+      <div class="testimonials-grid">
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Honestly the best coffee I've had in years. The cold brew is absolutely addictive — I come here every single morning now."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">JM</div>
+            <div><strong>Jamie Morales</strong><span>Regular since 2021</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal featured-review">
+          <div class="stars">★★★★★</div>
+          <p>"Brewed Awakenings is my office away from office. The ambience is perfect, the staff are wonderful, and the avocado toast is unmatched."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SR</div>
+            <div><strong>Sarah Renault</strong><span>Freelancer & Daily Visitor</span></div>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="stars">★★★★★</div>
+          <p>"Took a chance on the Golden Turmeric Latte and never looked back. Plus they actually know my name — that rare human touch."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">AK</div>
+            <div><strong>Arjun Kapoor</strong><span>Food Blogger</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= CONTACT ======= -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Visit or Reach Out</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Location</strong>
+              <span>31 anjaya street janagredddygudem city, CA 90210</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Hours</strong>
+              <span>Mon–Fri: 7 AM – 9 PM</span>
+              <span>Sat–Sun: 8 AM – 10 PM</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <span>+918106236003</span>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <span>orugantimaheshbabu3@gmail.com</span>
+            </div>
+          </div>
+          <div class="contact-social">
+            <a href="#" class="social-btn"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://wa.me/15558204400" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="contact-form reveal">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" id="name" placeholder="Your Name" required />
+              </div>
+              <div class="form-group">
+                <label>Your Email</label>
+                <input type="email" id="email" placeholder="Your mail" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input type="text" id="subject" placeholder="Reservation, Catering, etc." />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea id="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formMsg" class="form-message"></div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map Embed -->
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0835434509106!2d-122.41941568468135!3d37.77492977975929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c6c8f4459%3A0xb10ed6d9b5050fa5!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"
+          width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          title="Café Location Map">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-icon">☕</span>
+        <span>Brewed Awakenings</span>
+      </div>
+      <p>Crafting moments, one cup at a time.</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="footer-copy">© 2026 Brewed Awakenings. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/15558204400" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" title="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
